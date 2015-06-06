@@ -2,4 +2,4 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Gemfile"
-    - “homework_tester/**/*”
+    - "homework_tester/**.*"
