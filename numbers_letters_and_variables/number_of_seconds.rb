@@ -21,9 +21,10 @@ puts "There are #{sec * 60} seconds in a minute."
 puts "There are #{min} minutes in an hour."
 puts "There are #{day} hours in a day."
 puts "There are #{week} days in a week."
-puts "That means there are: \n\t #{sec_per_hour} seconds in an hour
+puts "That means there are:
+\t #{sec_per_hour} seconds in an hour
 \t #{60 * min.to_i * day.to_i} seconds in a day
-\t #{60 * min.to_i * day.to_i * week.to_i}seconds in a week"
+\t #{60 * min.to_i * day.to_i * week.to_i} seconds in a week"
 puts ''
 # sec_per_week variable uses seconds, hours, days and weeks
 # Since years doesn't technically = 365 days or 52
