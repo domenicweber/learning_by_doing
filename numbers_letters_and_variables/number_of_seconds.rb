@@ -22,13 +22,11 @@ puts "There are #{min} minutes in an hour."
 puts "There are #{day} hours in a day."
 puts "There are #{week} days in a week."
 puts "That means there are:
-\t #{sec_per_hour} seconds in an hour
-\t #{60 * min.to_i * day.to_i} seconds in a day
-\t #{60 * min.to_i * day.to_i * week.to_i} seconds in a week"
-puts ''
+  #{sec_per_hour} seconds in an hour
+  #{60 * min.to_i * day.to_i} seconds in a day
+  #{60 * min.to_i * day.to_i * week.to_i} seconds in a week"
 # sec_per_week variable uses seconds, hours, days and weeks
 # Since years doesn't technically = 365 days or 52
 # weeks I used a different variable to defines seconds per year
-puts "That means when you turn 20, you've been alive
-for #{sec_per_week.to_i * 52 * 20} seconds,and if you make it to 100,
-you will have lived for #{100 * wtf.to_i} seconds. Make them count!"
+puts "That means when you turn 20, you've been alive for #{sec_per_week.to_i * 52 * 20} seconds,
+and if you make it to 100, you will have lived for #{100 * wtf.to_i} seconds. Make them count!"
