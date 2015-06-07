@@ -29,4 +29,4 @@ puts "That means there are:
 # weeks I used a different variable to defines seconds per year #{100 * wtf.to_i} but to
 # appease the masses I did it the boring way.
 puts "That means when you turn 20, you've been alive for #{sec_per_week.to_i * 52 * 20} seconds,
-and if you make it to 100, you will have lived for #{100 * sec_per_week.to_i * 52} seconds. Make them count!"
+and if you make it to 100, you will have lived #{100 * sec_per_week.to_i * 52} seconds. Make them count!"
