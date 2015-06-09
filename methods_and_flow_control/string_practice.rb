@@ -8,4 +8,4 @@ puts "#{string}".upcase
 puts "This is a '#{string}' to practice with".gsub("#{string}", 'string')
 puts "The string '#{string}' has #{string_length} characters"
 puts "#{string}".reverse
-puts "#{string}".gsub("#{string}", 'practice ' * 3)
+puts "#{string}".replace('practice ' * 3).chop + '!'
