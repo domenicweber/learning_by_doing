@@ -4,7 +4,7 @@ count = 0
 while count < 100
   count += 1
   if  (count % 15) == 0
-    puts 'Fizz Buzz'
+    puts 'FizzBuzz'
   elsif (count % 5) == 0
     puts 'Buzz'
   elsif (count % 3) == 0
