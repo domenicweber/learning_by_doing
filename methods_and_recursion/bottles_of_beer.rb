@@ -2,7 +2,7 @@
 
 def bottle(number)
   puts "#{number} bottles of beer on the wall, #{number} bottles of beer."
-  puts "Take one down pass it around, #{number-1} of beer on the wall."
+  puts "Take one down pass it around, #{number-1} bottles of beer on the wall."
   number -= 1
   puts ''
   if number > 0
