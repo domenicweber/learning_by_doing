@@ -25,6 +25,8 @@ while number == 2
      end
 end
 
+puts "No more bottles of beer on the wall, no more bottles of beer."
+
 
 # if number == 1
 #   puts "#{number} bottle of beer. Take one down pass it around,"
