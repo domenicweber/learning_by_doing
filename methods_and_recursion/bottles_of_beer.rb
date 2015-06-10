@@ -2,15 +2,34 @@
 
 def bottle(number)
   puts "#{number} bottles of beer on the wall, #{number} bottles of beer."
-  puts "Take one down and pass it around, #{number-1} bottles of beer on the wall."
   number -= 1
+  puts "Take one down and pass it around, #{number} bottles of beer on the wall."
   puts ''
-  if number > 0
+  if number > 2
     bottle(number)
-  elsif number == 0
-  puts "#{number} bottles of beer. Take one down pass it around,"
-  puts "#{number} of beer on the wall"
   end
 end
-
 bottle(99)
+number = 2
+while number == 2
+  puts "#{number} bottles of beer on the wall, #{number} bottles of beer."
+  number -= 1
+  puts "Take one down and pass it around, #{number} bottle of beer on the wall."
+  puts ''
+     if
+       number <= 1
+       puts "#{number} bottle of beer on the wall, #{number} bottle of beer."
+       number -= 1
+       puts "Take one down and pass it around, #{number} bottles of beer on the wall."
+       puts ''
+     end
+end
+
+
+# if number == 1
+#   puts "#{number} bottle of beer. Take one down pass it around,"
+#   puts "#{number} of beer on the wall"
+#     else number == 0
+#       puts "#{number} bottle of beer. Take one down pass it around,"
+#       puts "#{number} of beer on the wall"
+# end
