@@ -39,4 +39,11 @@ items_purchased2 = x.purchase(9)
 items_paid_for2 = x.pay(3)
 
 
-
+if __FILE__ == $0
+  register = CashRegister.new
+  puts "The total is #{register.total}"
+  register.purchase(3.78)
+  puts "The total is #{register.total}"
+  register.pay(5.00)
+  puts "The total is #{register.total}"
+end
