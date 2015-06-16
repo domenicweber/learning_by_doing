@@ -8,15 +8,18 @@ puts "The third element is #{numbers_array2[2]}"
 puts "The element with an index of 3 is #{numbers_array2[3]}"
 puts "The second from last element is #{numbers_array2[8]}"
 puts "The first four elements are '#{numbers_array2[0..3].join(', ')}'"
-numbers_array2.delete_at(4)
-numbers_array2.delete_at(4)
-numbers_array2.delete_at(4)
+# you can do this but using slice is less code but copy/paste is faster so...meh
+# numbers_array2.delete_at(4)
+# numbers_array2.delete_at(4)
+# numbers_array2.delete_at(4)
+# puts "#{numbers_array2}"
+numbers_array2 = numbers_array2 - numbers_array2.slice!(4..6)
 puts "If we delete 5, 6 and 7 from the array, we're left with [#{numbers_array2.join(',')}]"
 puts "If we add 5 at the beginning of the array, we're left with [#{numbers_array2.unshift(5).join(',')}]"
 puts "If we add 6 at the end of the array, we're left with [#{numbers_array2.push(6).join(',')}]"
 puts "Only the elements [#{numbers_array2[6..7].join(', ')}] are > 8."
-numbers_array2.clear
-puts "If we remove all the elements, then the length of the array is #{numbers_array2.length}"
+# numbers_array2.clear
+puts "If we remove all the elements, then the length of the array is #{numbers_array2.clear.length}"
 
 # This was my first version
 # numbers_array = ['1...', '2...', '3...', '4...', '5...', '6...', '7...', '8...', '9...', '10...']
