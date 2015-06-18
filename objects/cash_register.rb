@@ -7,7 +7,7 @@ class CashRegister
   end
   #takes a floating number and adds it to a total
   def purchase(amount_owed)
-    @total_owed =+ amount_owed
+    @total_owed += amount_owed
     puts "You owe $#{@total_owed}"
   end
 
